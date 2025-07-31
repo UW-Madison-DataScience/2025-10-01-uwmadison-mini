@@ -57,6 +57,10 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 {% comment %}
+<h3>Check prerequisites listed in the scheule below before registering</h3>
+{% endif %}
+
+{% comment %}
 EVENTBRITE
 
 This block includes the Eventbrite registration widget if
