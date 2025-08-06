@@ -67,7 +67,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <h3>Event Registration & Prerequisites</h3>
-<p><strong> Before you register for each desired mini-workshop, please confirm that you satisfy the following prerequisites listed in the <a href="https://uw-madison-datascience.github.io/2025-10-01-uwmadison-mini/#schedule">schedule below</a>.</strong></p>
+<h4><strong> Before you register for each desired mini-workshop, please confirm that you satisfy the following prerequisites listed in the <a href="https://uw-madison-datascience.github.io/2025-10-01-uwmadison-mini/#schedule">schedule below</a>.</strong></h4>
 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
