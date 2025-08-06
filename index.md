@@ -66,50 +66,9 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<h3>Event Registration & Promo Codes</h3>
-<p>Register for each desired mini-workshop below by clicking the corresponding ticket (max 1 ticket per event per person). <br> <strong>ALL TICKETS LISTED ARE AT GENERAL ADMISSION PRICE. PLEASE USE THE APPROPRIATE PROMO CODE BELOW SO YOU ARE CHARGED THE CORRECT PRICE.</strong></p>
-<p><strong>The CHTC workshop on November 8 is open only to UW-MADISON STUDENTS AND AFFILIATES and requires separate registration at <a href="http://go.wisc.edu/chtc-intro-nov2023">http://go.wisc.edu/chtc-intro-nov2023</a>.</strong></p>
-<h4>Promo Codes</h4>
-<p>Please use the promotion code that pertains to you so that you are charged correctly. All tickets are set to the general admission price when a promotion code is not used. Insert the promotion code at the top of the registration box below and it will apply to all tickets in your order.</p>
-  
-During ordering:
-<ul>
-  <li>If you are a UW-Madison student or affiliate, please answer the "UW-Madison Department/Program" question when prompted.</li> 
-  <li>If you are a government, non-profit, educational, or general attendee not affiliated with UW-Madison, please answer the "University or Organization Affiliation" question when prompted.</li>
-</ul>
-  <table>
-    <tr>
-    <th width="20%">Group</th>
-    <th>Description</th>
-    <th>Price</th>
-    <th>Promo Code</th>
-    </tr>
-    <tr>
-      <td>UW-Madison Students</td>
-      <td>This ticket is for UW-Madison undergraduate and graduate students. Please use your WISC email to register so that affiliation can be confirmed.</td>
-      <td>$10</td>
-      <td><strong>UW_Student</strong></td>
-    </tr>
-    <tr>
-      <td>UW-Madison Affiliates</td>
-      <td>Please use your WISC email to register so that affiliation can be confirmed.</td>
-      <td>$15</td>
-      <td><strong>UW_Affiliate</strong></td>
-    </tr>
-    <tr>
-      <td>Government/Non-Profit/Educational</td>
-      <td>This is a discounted ticket for individuals who are affiliated with government, non-profit, or educational institutions.</td>
-      <td>$50</td>
-      <td><strong>Gov_NP_Edu</strong></td>
-    </tr>
-    <tr>
-      <td>General Admission</td>
-      <td>This ticket is for non-UW-Madison affiliated attendees.</td>
-      <td>$150</td>
-      <td><strong><i>Not Applicable</i></strong></td>
-    </tr>
-  </table>
-<br>
+<h3>Event Registration & Prerequisites</h3>
+<p><strong> Before you register for each desired mini-workshop, please confirm that you satisfy the following prerequisites listed in the <a href="https://uw-madison-datascience.github.io/2025-10-01-uwmadison-mini/#schedule">schedule below</a>.</strong></p>
+
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
