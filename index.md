@@ -66,20 +66,19 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<h3>Event Registration & Prerequisites</h3>
-<h4><strong> Before you register for a mini-workshop, please confirm that you have learned the prerequisites listed in the <a href="https://uw-madison-datascience.github.io/2025-10-01-uwmadison-mini/#schedule">schedule below</a>.</strong></h4>
-
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="540px"
-  scrolling="auto">
-</iframe>
+<div id="eventbrite-widget-container"></div>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: {{page.eventbrite}},
+        iframeContainerId: 'eventbrite-widget-container',
+    });
+</script>
 {% endif %}
-
 
 <h2 id="general">General Information</h2>
 
